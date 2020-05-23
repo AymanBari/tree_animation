@@ -32,3 +32,8 @@ animate(g, fps = 25)
 anim_save("g.gif", last_animation())
 
 ```
+
+## Sample animations
+![](https://media.giphy.com/media/RNPKTgj5XDvT7C5uDb/giphy.gif)
+
+![](https://media.giphy.com/media/l1Tp95CL0ZmC4N4InB/giphy.gif)
