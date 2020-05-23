@@ -15,8 +15,8 @@ library(babynames)  # Optional - for adding names to edge ids
 ```R
 # Create edges and nodes dataframes for complete trees. 
 # Add generation attribute to each entry (used for transition states in animation aesthetic)
-edges <- edges_data_frame_2(children = 2, height = 5) %>% add_generation_edges(1, 5, .)
-nodes <- create_nodes_df(edges_r0_1) %>% add_generation_nodes(1, 5, .)
+edges <- edges_data_frame_2(children = 2, height = 5) %>% add_generation_edges(children = 2, height = 5, .)
+nodes <- create_nodes_df(edges) %>% add_generation_nodes(children = 2, height = 5, .)
 
 # Plot and animate with ggraph and gganimage 
 g <- graph_from_data_frame(edges, vertices = nodes) %>%
