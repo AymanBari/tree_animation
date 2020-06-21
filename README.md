@@ -3,12 +3,13 @@ Gerentates edges and nodes dataframes to represent complete tree graphs.
 
 ## Required libraries 
 ``` 
-library(tidyverse)  # dplyr, tibble 
-library(igraph)     # Converting dataframes to graph objects 
-library(tidygraph)  # as_tbl_graph() -> convert dataframes to table graph objects
-library(ggraph)     # Plot tbl_graph objects 
-library(gganimate)  # animate graph plots  
-library(babynames)  # Optional - for adding names to edge ids 
+library(tidyverse)    # dplyr, tibble 
+library(igraph)       # Converting dataframes to graph objects 
+library(tidygraph)    # as_tbl_graph() -> convert dataframes to table graph objects
+library(ggraph)       # Plot tbl_graph objects 
+library(gganimate)    # animate graph plots  
+library(babynames)    # Optional - for adding names to edge ids 
+library(DataCombine)  # FindReplace in src. file 
 ```
 
 ## Sample Usage 
